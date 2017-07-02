@@ -1,0 +1,15 @@
+- logging system
+    . ability to login/password
+    . ability to logout
+    . ability to change password
+    . ability to recover forgotton password
+    .. Devise
+- take a survey
+    . user_id
+    . date
+    . class difficulty
+    . comments
+- stats about survey/how many people took the survey
+    . search by date
+    . ratings & list of comments
+- automatic email sent when class is done

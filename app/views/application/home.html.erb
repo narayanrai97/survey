@@ -1,0 +1,11 @@
+<html><body style="background-color: lightblue">
+
+    <% if user_signed_in? %>
+        Welcome <%= current_user.email %><br>
+        <%= link_to 'Logout', '/users/sign_out', method: 'delete' %><br>
+        <a href="/users/edit">Edit Profile</a>
+    <% else %>
+        <a href="/users/sign_in">Login</a>
+    <% end %>
+
+</body></html>
